@@ -8,3 +8,4 @@
 7 - FloatAndDoubleChallange
 8 - PoundsToKillogram
 9 - CharAndBoolean
+10 - Strings
