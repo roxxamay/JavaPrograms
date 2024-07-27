@@ -5,3 +5,4 @@
 5 - Casting
 5 - PrimitiveTypeChallange
 6 - FloatAndDouble
+7 - FloatAndDoubleChallange
