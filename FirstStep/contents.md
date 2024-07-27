@@ -3,3 +3,4 @@
 3 - Expression
 4 - ByteShortLong
 5 - Casting
+5 - PrimitiveTypeChallange
