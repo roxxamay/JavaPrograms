@@ -9,3 +9,4 @@
 8 - PoundsToKillogram
 9 - CharAndBoolean
 10 - Strings
+11 - Operators
