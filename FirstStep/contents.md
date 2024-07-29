@@ -18,3 +18,4 @@
 16 - IfAndCodeblock
 17 - Method
 18 - SpeedConverter
+19 - MegaBytesConverter
