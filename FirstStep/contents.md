@@ -17,3 +17,4 @@
 15 - StatementsWhiteSpaceAndIndenting
 16 - IfAndCodeblock
 17 - Method
+18 - SpeedConverter
