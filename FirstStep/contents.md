@@ -23,3 +23,5 @@
 21 - LeapYearCalculator
 22 - DecimalComparator
 23 - EqualSumChecker
+24 - TeenNumberChecker
+25 - FeetToCentimeters
