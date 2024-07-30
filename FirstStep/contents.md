@@ -22,3 +22,4 @@
 20 - BarkingDog
 21 - LeapYearCalculator
 22 - DecimalComparator
+23 - EqualSumChecker
