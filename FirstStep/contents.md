@@ -25,3 +25,4 @@
 23 - EqualSumChecker
 24 - TeenNumberChecker
 25 - FeetToCentimeters
+26 - MethodOverloading
