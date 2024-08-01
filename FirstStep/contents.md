@@ -31,3 +31,4 @@
 29 - AreaCalculator
 30 - MinutesToYearsAndDaysCalculator
 31 - EqualtyPrinter
+32 - PlayingCat
