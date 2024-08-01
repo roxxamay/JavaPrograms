@@ -30,3 +30,4 @@
 28 - SecondsAndMinutes
 29 - AreaCalculator
 30 - MinutesToYearsAndDaysCalculator
+31 - EqualtyPrinter
