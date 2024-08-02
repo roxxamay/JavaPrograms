@@ -1,4 +1,3 @@
-
 1 - HelloWorld
 2 - Var
 3 - Expression
@@ -39,3 +38,4 @@
 37 - Loop
 38 - IsPrime
 39 - SumThreeAndFive
+40 - SumOdd
