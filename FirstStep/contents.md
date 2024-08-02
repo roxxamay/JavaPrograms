@@ -33,3 +33,5 @@
 31 - EqualtyPrinter
 32 - PlayingCat
 33 - Switch
+34 - DayOfWeek
+35 - 
