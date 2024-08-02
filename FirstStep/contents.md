@@ -36,3 +36,5 @@
 34 - DayOfWeek
 35 - NumberInWords
 36 - NumberOfDaysInMonths
+37 - Loop
+38 - IsPrime
