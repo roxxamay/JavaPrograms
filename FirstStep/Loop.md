@@ -90,3 +90,109 @@ Let's perform a dry run of the code focusing on the interest calculation part:
 #### Additional Context
 
 This code demonstrates basic concepts such as class structure, method declaration and invocation, control flow with loops, and performing arithmetic operations. It also introduces the use of `System.out.println` for outputting text to the console. Understanding these fundamentals is crucial for anyone learning Java.
+
+
+A `for` loop in Java is a control flow statement that allows code to be executed repeatedly. It is often used when the number of iterations is known before the loop begins. A `for` loop consists of three parts: initialization, condition, and increment/decrement. Here's a breakdown of each part and how they work together:
+
+### Initialization
+This is where you initialize your loop variable. This step is executed only once at the beginning of the loop.
+
+```java
+int i = 0;
+```
+
+### Condition
+This is a boolean expression that is evaluated before each iteration. If it evaluates to `true`, the loop body will execute. Once it evaluates to `false`, the loop terminates, and execution continues with any code following the loop.
+
+```java
+i < 10
+```
+
+### Increment/Decrement
+This part is executed after each iteration of the loop. It typically involves updating the loop counter variable. In a typical `for` loop, this is done using the `++` operator, but it can also be a decrement operation (`--`) or any other operation that updates the loop variable.
+
+```java
+i++
+```
+
+### Complete Syntax
+Combining all parts, a typical `for` loop looks like this:
+
+```java
+for (initialization; condition; increment) {
+    // loop body
+}
+```
+
+### Example Usage
+Here's a simple example that prints the numbers 0 through 4:
+
+```java
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+
+### Variations
+Java also supports two variations of the `for` loop:
+
+#### Enhanced `for` Loop (also known as the "for-each" loop)
+This variation is used to iterate over arrays, collections, and maps without explicitly using an index or iterator. It automatically handles the iteration over the elements.
+
+```java
+int[] array = {1, 2, 3, 4, 5};
+for (int element : array) {
+    System.out.println(element);
+}
+```
+
+#### Downcasting in Enhanced `for` Loop
+If the collection contains objects of a superclass and you need to use them as a subclass type, you'll need to perform a downcast within the loop.
+
+```java
+List<? extends Animal> animals = Arrays.asList(new Dog(), new Cat());
+for (Animal animal : animals) {
+    if (animal instanceof Dog) {
+        ((Dog) animal).bark();
+    }
+}
+```
+
+### Breaking Out of a Loop
+You can use the `break` statement to exit the loop prematurely. If you want to break out of a nested loop, you can use labeled breaks.
+
+```java
+outerLoop:
+for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 5; j++) {
+        if (j == 2) {
+            break outerLoop; // Breaks out of the outer loop
+        }
+        System.out.println("i=" + i + ", j=" + j);
+    }
+}
+```
+
+### Continue Statement
+The `continue` statement skips the rest of the current loop iteration and moves directly to the next iteration.
+
+```java
+for (int i = 0; i < 5; i++) {
+    if (i % 2 == 0) {
+        continue; // Skips even numbers
+    }
+    System.out.println(i); // Prints odd numbers
+}
+```
+
+### Nested Loops
+Loops can be nested within loops, creating a multi-dimensional iteration structure. However, care must be taken to avoid infinite loops or excessive resource consumption.
+
+```java
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        System.out.println("i=" + i + ", j=" + j);
+    }
+}
+```
+
