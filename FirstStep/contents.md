@@ -39,3 +39,4 @@
 38 - IsPrime
 39 - SumThreeAndFive
 40 - SumOdd
+41 - WhileLoop
