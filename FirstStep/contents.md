@@ -40,3 +40,5 @@
 39 - SumThreeAndFive
 40 - SumOdd
 41 - WhileLoop
+43 - FirstAndLastDigitSum
+44 - EvenDigitSum
