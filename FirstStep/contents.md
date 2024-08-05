@@ -43,3 +43,4 @@
 43 - FirstAndLastDigitSum
 44 - EvenDigitSum
 45 - DigitSum
+46 - Palindrome
