@@ -42,3 +42,4 @@
 41 - WhileLoop
 43 - FirstAndLastDigitSum
 44 - EvenDigitSum
+45 - DigitSum
